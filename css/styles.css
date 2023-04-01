@@ -1,0 +1,179 @@
+#title {
+    background-color: #ff4c68;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3.3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.iphoneimg {
+    margin: 2rem 0 0 2.5rem;
+    max-width: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+@media (max-width:900px) {
+    .iphoneimg {
+        position: static;
+        transform: none;
+        max-width: 60%;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+/* BUTTONS */
+
+.down {
+    margin: 12% 0%;
+}
+
+/*NAVBAR*/
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0% 1rem;
+}
+
+
+/* FEATURES */
+
+
+#features {
+    background-color: white;
+    padding: 7% 15%;
+    text-align: center;
+    position: relative;
+}
+
+.featurebox {
+    padding: 5%;
+}
+
+.featurep {
+    color: #8f8f8f;
+}
+
+.sym {
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+
+.sym:hover {
+    color: #ff4c68;
+}
+
+/* <!-- Testimonials --> */
+
+#testimonials {
+    color: white;
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.testimg {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carouselitem {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.pressimg {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricingg */
+
+#pricing {
+    padding: 100px;
+
+}
+
+.card-deck {
+    padding: 30px 0 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 0;
+    max-width: 19rem;
+    text-align: center;
+    margin: 1rem;
+    transition-duration: 200ms;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.08);
+}
+
+/* footerr */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding: 7% 15%;
+}
+
+.footh3 {
+    font-weight: 700;
+    font-size: 2.7rem;
+    margin: 0 20%;
+}
+
+#footer {
+    padding: 5% 0 2%;
+    text-align: center;
+}
+
+.flogo {
+    font-size: 2rem;
+    padding: 0.5rem;
+}
